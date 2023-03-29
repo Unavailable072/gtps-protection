@@ -130,7 +130,7 @@ const client = http.createServer(function(req, res) {
                         if (req.url == "/") {
                             if (req.url = "TRACE") {
                                 res.writeHead(308, "OK");
-                                res.write(`<script>alert('Lyra')</script>`)
+                                res.write(`<script>alert('GTPS HTTP')</script>`)
                                 console.log(`New Connection = ${ipAddress} / Method = ${req.method} / in : ${req.url}`);
 							}
                             res.end();
